@@ -3,15 +3,31 @@
 } 
 nav {
     text-align: center;
+    padding: 1.5rem;
 } 
 
+h1{
+    color: blue;
+} 
+#getStarted {
+    padding: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    background-color:orangered;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+} 
 #section1 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     min-height: 22rem;
-    background-color: burlywood;
+    background: url("https://images.designtrends.com/wp-content/uploads/2016/11/03150816/Black-and-White-Travel-Photography.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 } 
 
 #section2 {
@@ -61,4 +77,8 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 1rem
+} 
+
+footer{
+    background-color: #26a3f0;
 } 
