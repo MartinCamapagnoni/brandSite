@@ -1,0 +1,64 @@
+#contentContainer {
+    min-height: 100vh;
+} 
+nav {
+    text-align: center;
+} 
+
+#section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 22rem;
+    background-color: burlywood;
+} 
+
+#section2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 25rem;
+    background-color: aqua;
+} 
+
+
+#section3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 25rem;
+    flex-direction: column;
+    background-color: orange;
+} 
+
+#section4  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 25rem;
+    background-color: yellow;
+    gap: 2rem;
+} 
+
+#section4 .customCard {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    border: 1px solid black;
+    width: 20rem;
+} 
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+} 
+
+.footerOption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem
+} 
