@@ -18,6 +18,7 @@ h1{
     border: 0;
     border-radius: 5px;
 } 
+
 #section1 {
     display: flex;
     justify-content: center;
@@ -30,12 +31,15 @@ h1{
     background-position: center;
 } 
 
+#section1 p {
+    font-weight: 500
+}
+
 #section2 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    min-height: 25rem;
-    background-color: aqua;
+    min-height: 28rem;
 } 
 
 
@@ -45,7 +49,27 @@ h1{
     align-items: center;
     min-height: 25rem;
     flex-direction: column;
-    background-color: orange;
+    background-color: #EB6F46;
+    text-align: center;
+    color: white;
+} 
+#section3 #role{
+    font-weight: 300;
+}
+
+blockquote{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#section3 .authorInfo h5{
+    margin: 0;
+} 
+
+#section3 h2 {
+    font-size: 1.75em;
+    font-weight: 700
 } 
 
 #section4  {
@@ -53,16 +77,29 @@ h1{
     justify-content: space-evenly;
     align-items: center;
     min-height: 25rem;
-    background-color: yellow;
     gap: 2rem;
 } 
 
 #section4 .customCard {
     display: flex;
     flex-direction: column;
-    background-color: orange;
     border: 1px solid black;
     width: 20rem;
+    border-radius: 6px; 
+} 
+
+} 
+
+.cardTitle{
+    color: #2BABC2;
+} 
+
+#section4 .customCard img {
+    border-radius: 6px;
+} 
+
+#section4 .cardContent {
+    padding: 1rem;
 } 
 
 .icons-container {
@@ -70,15 +107,45 @@ h1{
     justify-content: center;
     align-items: center;
     gap: 12rem;
+    padding-bottom: 1rem;
 } 
 
 .footerOption {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
     gap: 1rem
 } 
 
 footer{
     background-color: #26a3f0;
+    text-align: center;
+    padding: 1rem;
+    color: white;
 } 
+
+.imgContainer {
+    border-radius: 50%;
+} 
+
+.section2InnerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+} 
+
+
+.section2InnerContainer h2 {
+    font-size: 1.25em;
+    color: #2BABC2;
+    font-weight: 700;
+}
+
+.section2InnerContainer p {
+    font-size: 1em;
+}
