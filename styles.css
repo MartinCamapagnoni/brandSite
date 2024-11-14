@@ -88,7 +88,7 @@ blockquote{
     border-radius: 6px; 
 } 
 
-} 
+
 
 .cardTitle{
     color: #2BABC2;
@@ -100,7 +100,18 @@ blockquote{
 
 #section4 .cardContent {
     padding: 1rem;
-} 
+}
+
+
+@media screen and (max-width: 1000px){
+    #section4 .customCard {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid black;
+        width: 20rem;
+        border-radius: 6px; 
+    } 
+}
 
 .icons-container {
     display: flex;
